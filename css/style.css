@@ -1,0 +1,1387 @@
+*{margin: 0; padding: 0; box-sizing: border-box;  font-family: 'Crimson Text'; }
+html{font-size: 18px; scroll-behavior: smooth;}
+
+/************************************ SITIO ENTERO *****************************************************************/
+/********************************* HEADER **************************************************************************/
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 9999999999;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+}
+.logoCatarsis{
+    margin: .25rem 1rem;
+    height: 9vh;
+}
+.hiperv{
+    color: rgb(15, 15, 15);
+    margin-left: 1.1rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+.hiperv:hover{
+    color: tomato;
+    text-decoration: none;
+}
+/************************************ FOTO 1 ***********************************************/
+.foto1{
+    width: 100%;
+}
+/****************************************** FOOTER ********************************************/
+.iconos{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.arriba{
+    max-width: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+.arriba1{
+    max-width: 425px;
+    font-size: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: .5rem;
+}
+.iconosFoot{
+    width: 35px;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+}
+.iconosFoot:hover{transform: scale(1.3); transition: transform .4s;}
+.hcatarsis{
+    text-decoration: none;
+    color: black;
+}
+.hcatarsis:hover{
+    color: tomato;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+/************************************ FIN SITIO ************************************************************************/
+/************************************ PAG: HOME ***********************************************************************/
+/************************************ SECC-1 *************************************************************************/
+.h2text{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    font-weight: 400;          
+}
+.Csecc-1{
+    width: 100%;
+}
+.medio{
+    display: flex;
+    max-width: 50%;
+    padding-right: 25%;
+    padding-left: 28%;
+}
+.cajitasSecc-1{
+    border: 1px solid black;
+    height: 2.2rem;
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+.cajitasSecc-1:hover{
+    border: 1px solid rgb(158, 147, 147);
+    background-color: black;
+    color:white;
+    transition: all .5s ease;
+}
+.psecc1{
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+}
+.ahiper{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    padding-top: 0rem;
+    padding-bottom: -0.5rem;
+    text-decoration: none;
+}
+.ahiper:hover{
+    text-decoration: none;
+}
+/********************************** Discografía ********************************************/
+.gridDisc{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 5vw;
+}
+.claseimg1{
+    width: 21.5vw;
+    margin-bottom: 1.5rem;
+    border: 1px solid black;
+}
+.claseimg1:hover{
+    filter: grayscale(100%) blur(3px);
+    transition: all .5s ease;
+}
+/*************************************** AGENDA *********************************************/
+.tick{font-weight: 500;}
+.fondoagenda{
+    background-image: url(../img/agendablur1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h2agenda{color: white;}
+.cajaAg{
+    border: 1px white solid;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.493);
+}
+.cajaAg h3{
+    font-weight: 600;
+}
+.cajitasSecc-12{
+    border: 1px white solid;
+    margin-bottom: 1rem;
+    color: white;
+}
+/************************************ FIN PAG: HOME *****************************************************************/
+/************************* PAG: BIOGRAFIA (COPIADO DEL ANTERIOR PROYECTO) *******************************************/
+.fondobibliografia{
+    background-color: rgb(160, 160, 160);
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid rgb(109, 109, 109);
+    /*box-shadow: 5px rgb(87, 87, 87);*/
+}
+.esteh2{font-weight: 370;}
+.dos{
+    color:rgb(51, 50, 50); 
+    font-size: 1.5rem; 
+    text-align: center; 
+    font-weight: 350; 
+}
+.tres{text-align: justify;}
+.cajitabiblio{
+    border: 1.2px solid tomato;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.fondo2{
+    background-color: rgb(160, 160, 160);
+    background-image: url(../img/spotify.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid white;
+}
+.div-imagen{
+    display:inline-block;
+    position:relative;
+} 
+.div-imagen>div{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    padding: 1rem;
+    margin:0;
+}
+.desvanecer:hover{
+    filter: grayscale(100%);
+    opacity: 0.40;                                    
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+.esteh2{
+    color:rgb(51, 50, 50);
+    text-align: center;
+    /*font-size: 2.5rem;*/
+    font-weight: 200;                                      
+    text-transform: uppercase; /*PARA QUE QUEDEN EN MAYUSCULAS */
+}
+.h2int{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.integrantes{
+    background-color:rgba(235, 235, 235, 0);                                             
+}  
+@media screen and (min-width:0px) and (max-width:280px){
+/****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.2rem;                                   
+    }
+    .imgintegrantes{
+        width: 90vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{ 
+        /*display:none*/                                        
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 55%;
+    }
+    .lean p{font-size: 0.8rem;}
+    .lean1{margin-left: .7rem;}
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 70%;
+    }
+    .alexis p{font-size: 0.8rem;}
+    .alexis1{margin-left: .7rem;}
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 50%;/* 70%;*/
+    }
+    .naza p{font-size: 0.8rem;}
+    .naza1{
+        margin-left: .7rem;/*25%;*/
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.5rem;}
+}
+@media screen and (min-width:281px) and (max-width:312px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.2rem;                                   
+    }
+    .imgintegrantes{
+        width: 90vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{
+        /*display: none;*/                                             
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 55%;
+    }
+    .lean p{font-size: 0.8rem;}
+    .lean1{margin-left: 1rem;}
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 70%;
+    }
+    .alexis p{font-size: 0.8rem;}
+    .alexis1{margin-left: 1rem;}
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 50%;/* 70%;*/
+    }
+    .naza p{font-size: 0.8rem;}
+    .naza1{
+        margin-left: 1rem;/*25%;*/
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.5rem;}
+}
+@media screen and (min-width:313px) and (max-width:328px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.2rem;                                   
+    }
+    .imgintegrantes{
+        /*display:none*/
+        width: 90vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{
+        /*display: none;*/                                            
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 55%;
+    }
+    .lean p{font-size: 0.8rem;}
+    .lean1{margin-left: 1rem;}
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 70%;
+    }
+    .alexis p{font-size: 0.8rem;}
+    .alexis1{margin-left: 1rem;}
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 50%;/* 70%;*/
+    }
+    .naza p{font-size: 0.8rem;}
+    .naza1{
+        margin-left: 1rem;/*25%;*/
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.5rem;}
+}
+@media screen and (min-width:329px) and (max-width:355px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.2rem;                                   
+    }
+    .imgintegrantes{
+        width: 90vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{
+        /*display: none;*/                                            
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 55%;
+    }
+    .lean p{font-size: 0.8rem;}
+    .lean1{margin-left: 1rem;}
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 70%;
+    }
+    .alexis p{font-size: 0.8rem;}
+    .alexis1{margin-left: 1rem;}
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 50%;/* 70%;*/
+    }
+    .naza p{font-size: 0.8rem;}
+    .naza1{
+        margin-left: 1rem;/*25%;*/
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.5rem;}
+}
+@media screen and (min-width:356px) and (max-width:399px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.2rem;                                   
+    }
+    .imgintegrantes{
+        width: 90vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{
+        /*display: none;*/                                            
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 55%;
+    }
+    .lean p{font-size: 0.8rem;}
+    .lean1{margin-left: 1rem;}
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 70%;
+    }
+    .alexis p{font-size: 0.8rem;}
+    .alexis1{margin-left: 1rem;}
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 50%;/* 70%;*/
+    }
+    .naza p{font-size: 0.8rem;}
+    .naza1{
+        margin-left: 1rem;/*25%;*/
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.5rem;}
+}
+@media screen and (min-width:400px) and (max-width:422px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.3rem;                                     
+    }
+    .imgintegrantes{
+        width: 85vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{
+        /*display: none;*/                                            
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 55%;
+    }
+    .lean p{font-size: 0.8rem;}
+    .lean1{
+        margin-left: 1.7rem;
+    }
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 70%;
+    }
+    .alexis p{font-size: 0.8rem;}
+    .alexis1{
+        margin-left: 1.7rem;
+    }
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 50%;/* 70%;*/
+    }
+    .naza p{font-size: 0.8rem;}
+    .naza1{
+        margin-left: 1.7rem;/*25%;*/
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.5rem;}
+}
+@media screen and (min-width:423px) and (max-width:453px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.3rem;                                     
+    }
+    .imgintegrantes{
+        width: 85vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{
+        /*display: none;*/                                             
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 55%;
+    }
+    .lean p{font-size: 0.8rem;}
+    .lean1{
+        margin-left: 1.8rem;
+    }
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 70%;
+    }
+    .alexis p{font-size: 0.8rem;}
+    .alexis1{
+        margin-left: 1.8rem;
+    }
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 50%;/* 70%;*/
+    }
+    .naza p{font-size: 0.8rem;}
+    .naza1{
+        margin-left: 1.8rem;/*25%;*/
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+   /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.5rem;}
+}
+@media screen and (min-width:454px) and (max-width:500px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.3rem;                                     
+    }
+    .imgintegrantes{
+        width: 85vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{
+        /*display: none;*/                                            
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 55%;
+    }
+    .lean p{font-size: 0.8rem;}
+    .lean1{
+        margin-left: 2.1rem;
+    }
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 70%;
+    }
+    .alexis p{font-size: 0.8rem;}
+    .alexis1{
+        margin-left: 2.1rem;
+    }
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 50%;/* 70%;*/
+    }
+    .naza p{font-size: 0.8rem;}
+    .naza1{
+        margin-left: 2.1rem;/*25%;*/
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.5rem;}
+}
+@media screen and (min-width:501px) and (max-width:579px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.3rem;                                     
+    }
+    .imgintegrantes{
+        width: 45vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{
+        /*display: none;*/                                            
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 55%;
+    }
+    .lean p{font-size: 0.8rem;}
+    .lean1{
+        margin-left: 1rem;
+    }
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 70%;
+    }
+    .alexis p{font-size: 0.8rem;}
+    .alexis1{
+        margin-left: 1rem;
+    }
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 50%;/* 70%;*/
+    }
+    .naza p{font-size: 0.8rem;}
+    .naza1{
+        margin-left: 1rem;/*25%;*/
+        margin-top: 3%;
+        margin-bottom: 1.5%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.6rem;}
+}
+@media screen and (min-width:580px) and (max-width:658px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.3rem;                                     
+    }
+    .imgintegrantes{
+        width: 45vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{
+        /*display: none;*/                                          
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 55%;
+    }
+    .lean p{font-size: 0.8rem;}
+    .lean1{
+        margin-left: 1rem;
+    }
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 70%;
+    }
+    .alexis p{font-size: 0.8rem;}
+    .alexis1{
+        margin-left: 1rem;
+    }
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 50%;/* 70%;*/
+    }
+    .naza p{font-size: 0.8rem;}
+    .naza1{
+        margin-left: 1rem;/*25%;*/
+        margin-top: 3%;
+        margin-bottom: 1.5%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.7rem;}
+}
+@media screen and (min-width:659px) and (max-width:750px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.3rem;                                     
+    }
+    .imgintegrantes{
+        width: 28vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{                                             
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 30%;
+    }
+    .lean p{font-size: 0.8rem;}
+    .lean1{
+        margin-left: 1.5rem;
+    }
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 36%;
+    }
+    .alexis p{font-size: 0.8rem;}
+    .alexis1{
+        margin-left: 1.1rem;
+    }
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 30%;/* 70%;*/
+    }
+    .naza p{font-size: 0.8rem;}
+    .naza1{
+        margin-left: 1.4rem;
+        margin-bottom: 1%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.7rem;}
+}
+@media screen and (min-width:751px) and (max-width:800px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.3rem;                                     
+    }
+    .imgintegrantes{
+        width: 28vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{                                           
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1rem;
+        margin-top: 38%;
+    }
+    .lean p{font-size: 0.9rem;}
+    .lean1{
+        margin-left: 1.5rem;
+    }
+    .alexis h2{
+        font-size: 1rem;
+        margin-top: 58%;
+    }
+    .alexis p{font-size: 0.9rem;}
+    .alexis1{
+        margin-left: 2.1rem;
+    }
+    .naza h2{
+        font-size: 1rem;
+        margin-top: 43%;/* 70%;*/
+    }
+    .naza p{font-size: 0.9rem;}
+    .naza1{
+        margin-left: 1.4rem;
+        margin-bottom: 1%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.7rem;}
+}
+@media screen and (min-width:801px) and (max-width:899px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.5rem;                                     
+    }
+    .imgintegrantes{
+        width: 28vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{                                           
+        max-width: 98%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1.1rem;
+        margin-top: 38%;
+    }
+    .lean1{
+        margin-left: 1.5rem;
+    }
+    .alexis h2{
+        font-size: 1.1rem;
+        margin-top: 58%;
+    }
+    .alexis1{
+        margin-left: 2.1rem;
+    }
+    .naza h2{
+        font-size: 1.1rem;
+        margin-top: 43%;/* 70%;*/
+    }
+    .naza1{
+        margin-left: 1.4rem;
+        margin-bottom: 1%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.7rem;}
+}
+@media screen and (min-width:900px) and (max-width:989px){
+    /****** Sección integrantes *******/  
+    .esteh2{
+        font-size: 2.5rem;                                     
+    }
+    .imgintegrantes{
+        width: 28vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{                                             
+        max-width: 95%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1.2rem;
+        margin-top: 47%;
+    }
+    .lean1{
+        margin-left: 1.5rem;
+    }
+    .alexis h2{
+        font-size: 1.2rem;
+        margin-top: 60%;
+    }
+    .alexis1{
+        margin-left: 2.1rem;
+    }
+    .naza h2{
+        font-size: 1.2rem;
+        margin-top: 46%;/* 70%;*/
+    }
+    .naza1{
+        margin-left: 1.4rem;
+        margin-bottom: 1%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.7rem;}
+}
+@media screen and (min-width:990px) and (max-width:1188px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.5rem;                                     
+    }
+    .imgintegrantes{
+        width: 28vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{                                            
+        max-width: 95%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1.4rem;
+        margin-top: 58%;
+    }
+    .lean1{
+        margin-left: 1.5rem;
+    }
+    .alexis h2{
+        font-size: 1.4rem;
+        margin-top: 68%;
+    }
+    .alexis1{
+        margin-left: 2.1rem;
+    }
+    .naza h2{
+        font-size: 1.4rem;
+        margin-top: 50%;/* 70%;*/
+    }
+    .naza1{
+        margin-left: 1.4rem;
+        margin-bottom: 1%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.7rem;}
+}
+@media screen and (min-width:1189px) and (max-width:1300px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.5rem;                                     
+    }
+    .imgintegrantes{
+        width: 28vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{                                             
+        max-width: 95%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1.4rem;
+        margin-top: 80%;
+    }
+    .lean1{
+        margin-left: 1.5rem;
+    }
+    .alexis h2{
+        font-size: 1.4rem;
+        margin-top: 95%;
+    }
+    .alexis1{
+        margin-left: 2.1rem;
+    }
+    .naza h2{
+        font-size: 1.4rem;
+        margin-top: 70%;
+    }
+    .naza1{
+        margin-left: 1.4rem;
+        margin-bottom: 1%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.7rem;}
+}
+@media screen and (min-width: 1301px){
+    /****** Sección integrantes *******/ 
+    .esteh2{
+        font-size: 2.5rem;                                     
+    }
+    .imgintegrantes{
+        width: 28vw;
+        border: 3.6px solid white;
+    }
+    .integrantes{                                             
+        max-width: 95%;
+        margin: auto;                          
+    }
+    .lean h2{
+        font-size: 1.4rem;
+        margin-top: 80%;
+    }
+    .lean1{
+        margin-left: 1.5rem;
+    }
+    .alexis h2{
+        font-size: 1.4rem;
+        margin-top: 95%;
+    }
+    .alexis1{
+        margin-left: 2.1rem;
+    }
+    .naza h2{
+        font-size: 1.4rem;
+        margin-top: 70%;
+    }
+    .naza1{
+        margin-left: 1.4rem;
+        margin-bottom: 1%;
+    }
+    /*********BIBLIOGRAFIA***********/
+    .esteh2{font-size: 1.9rem;}
+}
+/************************************ FIN PAG: BIOGRAFIA ***************************************************************/
+/************************************ PAG: CONTACTO ********************************************************************/
+.smallLetra{
+    margin-top: -.8rem; 
+    margin-bottom: 1rem;
+    color: rgb(65, 63, 63);    
+}
+.contenedor .form .form-header .form-title{
+    font-weight: normal;
+    color: black; /*despues white*/
+    text-align: center;
+    padding: 14px 0;
+    border-bottom: tomato .1px solid;
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+.contenedor .form{
+    border:1px rgba(243, 236, 236, 0.082);
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    background: rgba(238, 231, 231, 0.767);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 3rem;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+.contenedor .form .form-label{
+    display: block;
+    /*color: tomato;*/
+    font-family: sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.contenedor .form .form-input, .form-textarea{
+    background: rgba(236, 236, 236, 0.87);
+    -webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid tomato;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(43, 42, 42);
+    font-family: sans-serif;
+}
+.contenedor .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+.contenedor .form .btn-submit{
+    width: 100%;
+    outline: none;
+    background: rgba(255, 99, 71, 0.897);
+    border: rgb(243, 90, 63);
+    color: white;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.contenedor .form .btn-submit:hover{
+    background: black;
+    color: white;
+}
+#fondoContacto{
+    background-color: transparent;
+    background-image: url(../img/123.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+/************************************ FIN PAG: CONTACTO ***************************************************************/
+/************************************ PAG: MERCH *********************************************************************/
+.intentocard{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1rem;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.cajasMerch{
+    margin-top: 3rem;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+    background-color: rgba(240, 233, 233, 0.13);
+}
+.botonMerch{
+    background-color: tomato;
+    border: rgb(250, 77, 46) 1.1px solid;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-bottom: .5rem;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.botonMerch:hover{
+    border: 1.1px solid black;
+    background-color: black;
+    color: white;
+}
+.h5M{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.pM{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.801);
+}
+/************************************* FIN PAG: MERCH ******************************************************************/
+/********************************** MEDIA QUERIES REAL******************************************************************/
+@media screen and (min-width:0px) and (max-width:299px){
+    .logoCatarsis{
+        margin: .25rem 1rem;
+        margin-top: .5rem;
+        height: 50px/*8vh*/;
+    }
+    .header{
+        background-color: rgba(255, 255, 255);
+        display: block;
+        position: sticky;
+        top: 0;
+    }
+    .hola{background-color: rgba(218, 218, 218, 0.616)}
+    .logoCatarsis{
+        margin-top: .3rem;
+        margin-bottom: .3rem;
+        margin-left: 24%;
+    }
+    .hamburguesa{
+        margin-right: 70%;
+        width: 100vw;
+    }
+    .medio{
+        display: none;
+    }
+    .spotify1{
+        width: 100%;
+        height: 60vh;
+    }
+    .gridDisc{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .claseimg1{
+        width: 88vw;
+        margin-left: -0.5rem;
+    }
+    .titulocd{
+        margin-left: -0.5rem;
+    }
+}
+@media screen and (min-width:300px) and (max-width:343px){
+    .logoCatarsis{
+        margin: .25rem 1rem;
+        margin-top: .5rem;
+        height: 50px/*8vh*/;
+    }
+    .medio{
+        display: none;
+    }
+    .spotify1{
+        width: 100%;
+        height: 60vh;
+    }
+    .gridDisc{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .claseimg1{
+        width: 88vw;
+        margin-left: -0.5rem;
+    }
+    .titulocd{
+        margin-left: -0.5rem;
+    }
+}
+@media screen and (min-width:344px) and (max-width:361px){
+    .logoCatarsis{
+        margin: .25rem 1rem;
+        margin-top: .5rem;
+        height: 50px/*8vh*/;
+    }
+    .medio{
+        display: block;
+    }
+    .cajitasSecc-1{
+        border: 1px solid black;
+        width: 326px;
+        height: 2.2rem;
+        color: black;
+        margin-left: -5rem;
+    }
+    .spotify{display: none;}
+    .gridDisc{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .claseimg1{
+        width: 88vw;
+        margin-left: -0.5rem;
+    }
+    .titulocd{
+        margin-left: -0.5rem;
+    }
+    .tick{
+        width: 95px;
+        margin-left: 0px;
+    }
+    .este{
+        border: 1px solid white;
+        width: 100px;
+        margin-left: 0;
+        color: white;
+    }
+    .este:hover{
+        background-color: black;
+    }
+}
+@media screen and (min-width:362px) and (max-width:399px){
+    .logoCatarsis{
+        margin: .25rem 1rem;
+        margin-top: .5rem;
+        height: 50px/*8vh*/;
+    }
+    .medio{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 11vw;
+        margin-left: -1rem;
+    }
+    .av{text-align: center;}
+    .spotify{display: none;}
+    .gridDisc{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .claseimg1{
+        width: 88vw;
+        margin-left: -0.5rem;
+    }
+    .titulocd{
+        margin-left: -0.5rem;
+    }
+}
+@media screen and (min-width:400px) and (max-width:447px){
+    .logoCatarsis{
+        margin: .25rem 1rem;
+        margin-top: .5rem;
+        height: 50px/*8vh*/;
+    }
+    .medio{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 0rem;
+        margin-left: -.5rem;
+    }
+    .spotify{display: none;}
+    .gridDisc{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .claseimg1{
+        width: 88vw;
+        margin-left: -0.5rem;
+    }
+    .titulocd{
+        margin-left: -0.5rem;
+    }
+    .cajasMerch{
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width:448px) and (max-width:500px){
+    .logoCatarsis{
+        margin: .25rem 1rem;
+        margin-top: .5rem;
+        height: 50px/*8vh*/;
+    }
+    .medio{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 5vw;
+    }
+    .spotify{display: none;}
+    .medio{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 5vw;
+    }
+    .spotify{display: none;}
+    .gridDisc{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .claseimg1{
+        width: 88vw;
+        margin-left: -0.5rem;
+    }
+    .titulocd{
+        margin-left: -0.5rem;
+    }
+    .cajasMerch{
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width:500px) and (max-width:572px){
+    .logoCatarsis{
+        margin: .25rem 1rem;
+        margin-top: .5rem;
+        height: 50px/*8vh*/;
+    }
+    .medio{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 8.5vw;
+    }
+    .spotify{display: none;}
+    .gridDisc{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .claseimg1{
+        width: 80vw;
+        margin-left: 1rem;
+    }
+    .titulocd{
+        margin-left: 1rem;
+    }
+    .gridMerch{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width:573px) and (max-width:575px){
+    .medio{
+        display: flex;
+        max-width: 50%;
+        padding-right: 25%;
+        padding-left: 5%;
+    }
+    .spotify{display: none;}
+    .gridDisc{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+    .claseimg1{
+        width: 230px;
+        margin-left: 0rem;
+    }
+    .gridMerch{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .medio{
+        display: flex;
+        max-width: 50%;
+        padding-right: 25%;
+        padding-left: 0%;
+        margin-left: -.5rem;
+    }
+    .spotify{display: none;}
+    .gridDisc{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+    .claseimg1{
+        width: 230px;
+        margin-left: -1rem;
+    }
+    .titulocd{
+        margin-left: -15px;
+    }
+    .gridMerch{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width:768px) and (max-width:940px){
+    .medio{
+        display: flex;
+        max-width: 50%;
+        padding-right: 25%;
+        padding-left: 15%;
+        margin-left: -1.5rem;
+    }
+    .spotify{display: none;}
+    .gridDisc{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .claseimg1{
+        width: 300px;
+    }
+    .gridMerch{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width:941px) and (max-width:991px){
+    .medio{
+        display: flex;
+        max-width: 50%;
+        padding-right: 25%;
+        padding-left: 15%;
+        margin-left: -1.5rem;
+    }
+    .spotify{display: none;}
+    .gridDisc{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .claseimg1{
+        width: 30vw;
+    }
+    .gridMerch{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .medio{
+        display: flex;
+        max-width: 50%;
+        padding-right: 25%;
+        padding-left: 24%;
+        margin-left: -1.5rem;
+    }
+    .spotify{display: none;}
+    .gridMerch{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 1200px){
+    .medio{
+        display: flex;
+        max-width: 50%;
+        padding-right: 25%;
+        padding-left: 28.1%;
+        margin-left: -1.5rem;
+    }
+    .spotify{display: none;}
+    .gridMerch{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (orientation: landscape){
+    .logoCatarsis{
+        height: 50px;
+    }
+}
